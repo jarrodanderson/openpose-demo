@@ -4,10 +4,8 @@ set(OpenPose_VERSION_MINOR 5)
 set(OpenPose_VERSION_PATCH 0)
 set(OpenPose_VERSION ${OpenPose_VERSION_MAJOR}.${OpenPose_VERSION_MINOR}.${OpenPose_VERSION_PATCH})
 
-
 ### OS-DEPENDENT FLAGS
 set(CMAKE_MACOSX_RPATH 1)
-
 
 ### CMAKE HEADERS
 # Ubuntu 18 default. After 3.8, no need for find_CUDA
